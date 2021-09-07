@@ -7,7 +7,7 @@ import java.lang.Math;
    8/31/21
    Calculates distance and final velocity
    of the falling object */
-public class freeFall {
+public class Main {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
