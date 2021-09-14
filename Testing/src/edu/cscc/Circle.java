@@ -1,6 +1,5 @@
 package edu.cscc;
 import java.util.*;
-import java.math.*;
 
 // Gage Farmer, 8/31/21
 // Calculates the area of a circle

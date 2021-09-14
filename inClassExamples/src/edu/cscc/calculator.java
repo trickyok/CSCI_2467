@@ -1,6 +1,5 @@
 package edu.cscc;
 
-import java.util.Scanner;
 import javax.swing.*;
 import java.awt.*;
 
@@ -8,7 +7,7 @@ import java.awt.*;
     9/7/2021
     calculator.java
  */
-import javax.swing.*;
+
 class gui{
     public static void main(String args[]){
         JFrame frame = new JFrame("Epic Calculator");
