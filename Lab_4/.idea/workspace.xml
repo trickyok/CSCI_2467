@@ -19,7 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d498344-ceb4-495f-9fbf-c15641f8b7a3" name="Default Changelist" comment="" />
+    <list default="true" id="5d498344-ceb4-495f-9fbf-c15641f8b7a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Lab_6/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PolymorphismExample/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PolymorphismExample/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PolymorphismExample/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PolymorphismExample/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PolymorphismExample/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PolymorphismExample/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PolymorphismExample/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PolymorphismExample/PolymorphismExample.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_6/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_6/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_6/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_6/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_6/Lab6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_6/Lab_6.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shape_Inheritance/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Shape_Inheritance/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +47,12 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab_6" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -75,6 +95,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1634063661095">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1634063661095" />
     <state width="1493" height="167" key="GridCell.Tab.0.bottom" timestamp="1632249552539">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -91,6 +115,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="167" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1632249552539" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1634063656038">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1634063656038" />
     <state x="209" y="33" key="new project wizard" timestamp="1633453974026">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
