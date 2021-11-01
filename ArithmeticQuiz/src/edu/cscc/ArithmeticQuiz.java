@@ -2,6 +2,8 @@ package edu.cscc;
 import java.util.Scanner;
 
 /**
+ * @author Charles Farmer
+ * 11/1/2021
  * Quiz students on addition, subtraction, and multiplication problems
  * Use integer values between 1 and max
  */

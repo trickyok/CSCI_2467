@@ -2,6 +2,8 @@ package edu.cscc;
 import java.util.Scanner;
 
 /**
+ * @author Charles Farmer
+ * 11/1/2021
  * Main routine for quiz
  */
 public class Main {
