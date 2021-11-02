@@ -1,9 +1,11 @@
 package edu.cscc;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /**
  * Calculate Target Heart Rate and Maximum Heart Rate using the Karvonen Method
- * @author student_name
+ * @author Charles Farmer
+ * 11/2/2021
  */
 public class Main {
     private static Scanner input = new Scanner(System.in);
@@ -27,9 +29,30 @@ public class Main {
      * @return resting heart rate
      */
     public static double getRestingHR() {
-        System.out.print("Enter your resting heart rate: ");
-        double restingHR = input.nextDouble();
-        return restingHR;
+        double restingHR = 0;
+        while (true) {
+            System.out.print("Enter your resting heart rate: ");
+            try {
+                String restingHRString = input.next();
+                restingHR = Double.parseDouble(restingHRString);
+            }
+            catch (InputMismatchException e) {
+                restingHR = -1;
+                input.nextLine();
+            }
+            catch (NullPointerException e) {
+                restingHR = -2;
+                input.nextLine();
+            }
+            catch (NumberFormatException e) {
+                restingHR = -3;
+                input.nextLine();
+            }
+            if (restingHR <= 0) {
+                System.out.println("Invalid input");
+            }
+            else { return restingHR; }
+        }
     }
 
     /**
@@ -37,9 +60,30 @@ public class Main {
      * @return person's age
      */
     public static double getAge() {
-        System.out.print("Enter your age: ");
-        double age = input.nextDouble();
-        return age;
+        while (true) {
+            double age = 0;
+            System.out.print("Enter your age: ");
+            try {
+                String ageString = input.next();
+                age = Double.parseDouble(ageString);
+            }
+            catch (InputMismatchException e) {
+                age = -1;
+                input.nextLine();
+            }
+            catch (NullPointerException e) {
+                age = -2;
+                input.nextLine();
+            }
+            catch (NumberFormatException e) {
+                age = -3;
+                input.nextLine();
+            }
+            if (age <= 0) {
+                System.out.println("Invalid input");
+            }
+            else { return age; }
+        }
     }
 
     /**
