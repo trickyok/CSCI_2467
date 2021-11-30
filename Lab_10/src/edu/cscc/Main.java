@@ -3,11 +3,6 @@ package edu.cscc;
 import java.util.Arrays;
 import java.util.Comparator;
 
-/* Charles Farmer
-Sorts students by a variety of factors
-Last Name, Major, Zip Code, and GPA
-11/29/2021 - Accidentally late
- */
 public class Main {
 
     public static void main(String[] args) {
@@ -21,38 +16,13 @@ public class Main {
         });
         printStudentList("Students Sorted By LastName",students);
 
-        // sort students by major
-        Arrays.sort(students,new Comparator<Student>() {
-            public int compare(Student s1,Student s2) {
-                String major1 = s1.getMajor();
-                String major2 = s2.getMajor();
-                return major1.compareTo(major2);
-            }
-        });
+        // TODO - sort students by major
         printStudentList("Students Sorted By Major",students);
 
-        // sort students by zip code
-        Arrays.sort(students,new Comparator<Student>() {
-            public int compare(Student s1,Student s2) {
-                int zip1 = s1.getZipcode();
-                int zip2 = s2.getZipcode();
-                if (zip1 > zip2) { return 1; }
-                else if (zip1 < zip2) { return -1; }
-                else return 0;
-            }
-        });
+        // TODO - sort students by zip code
         printStudentList("Students Sorted By Zip Code",students);
 
-        // sort students by GPA
-        Arrays.sort(students,new Comparator<Student>() {
-            public int compare(Student s1,Student s2) {
-                double gpa1 = s1.getGpa();
-                double gpa2 = s2.getGpa();
-                if (gpa1 < gpa2) { return 1; }
-                else if (gpa1 > gpa2) { return -1; }
-                else return 0;
-            }
-        });
+        // TODO - sort students by GPA
         printStudentList("Students Sorted By GPA",students);
     }
 
