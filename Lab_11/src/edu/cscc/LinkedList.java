@@ -1,6 +1,6 @@
 package edu.cscc;
 
-public class LinkedList {
+public class LinkedList<Object> {
     private Node head;
 
     public LinkedList() {

@@ -1,6 +1,6 @@
 package edu.cscc;
 
-public class Node {
+public class Node<Object> {
     private Object content;
     private Node next;
 
