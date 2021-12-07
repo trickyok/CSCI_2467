@@ -6,7 +6,7 @@ import java.util.*;
 
 /**
  * Utility to process a document to into sorted set of unique words
- * @author student name
+ * @author Charles Farmer
  */
 public class UniqueWords {
     /**
