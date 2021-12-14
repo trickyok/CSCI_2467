@@ -6,7 +6,7 @@ import java.util.*;
 public class Triangle {
     private static Scanner input = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main() {
         // Declarations
         double base, height, area;
 

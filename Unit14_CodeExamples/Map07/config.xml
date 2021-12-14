@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <comment>Configuration file for student ID lookup application</comment>
+    <entry key="college">Columbus State Community College</entry>
+    <entry key="idname">Cougar ID</entry>
+</properties>
