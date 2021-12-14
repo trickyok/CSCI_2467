@@ -2,20 +2,22 @@ package edu.cscc;
 
 public class BubbleSort {
     public static void sort(String[] list) {
-        // TODO - implement a Bubble Sort for a String array
-        // Use the integer Bubble Sort from Unit 14 as a starting point
-        // You'll need to use the String compareTo() method to compare Strings
-        boolean changed = true;
-        do {
-            changed = false;
-            for (int j = 0; j <= list.length - 2; j++)
-                if (list[j] > list[j + 1]) {
-                    //swap list[j] wiht list[j+1]
-                    int temp = list[j];
-                    list[j] = list[j + 1];
-                    list[j + 1] = temp;
-                    changed = true;
+
+        String first, second;
+        int i, j, size1 = list.length-1, size2 = list.length-2;
+
+        for (i = 0; i < size1; i++) {
+
+            for (j = 0; j < size2-i; j++) {
+                first = list[j];
+                second = list[j + 1];
+
+                if (first.compareTo(second) > 0) {
+                    list[j] = second;
+                    list[j + 1] = first;
+
                 }
-        } while (changed);
+            }
+        }
     }
 }

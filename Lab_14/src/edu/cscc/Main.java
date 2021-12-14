@@ -5,8 +5,7 @@ import java.util.Arrays;
 
 public class Main {
 
-    // TODO - once your code is working and tested, switch to the file bigsurnames.ser
-    private static final String SERFNAME = "surnames.ser";
+    private static final String SERFNAME = "bigsurnames.ser";
 
     public static void main(String[] args) {
 
@@ -20,7 +19,7 @@ public class Main {
 
             System.out.println("Sort array with Bubble Sort");
             long start = System.currentTimeMillis();
-            // TODO - once you've implemented Bubble Sort - call your Bubble Sort's sort method to sort the array
+            BubbleSort.sort(surnames);
             long stop = System.currentTimeMillis();
             System.out.println("Elapsed time: "+(stop-start)+" milliseconds");
             top5names(surnames);
@@ -29,7 +28,7 @@ public class Main {
             surnames = CensusData.deserialize(SERFNAME);
             System.out.println("Sort array with Java built-in sort");
             start = System.currentTimeMillis();
-            // TODO - Use Java's built-in sort method to sort the array
+            Arrays.sort(surnames);
             stop = System.currentTimeMillis();
             System.out.println("Elapsed time: "+(stop-start)+" milliseconds");
             top5names(surnames);
